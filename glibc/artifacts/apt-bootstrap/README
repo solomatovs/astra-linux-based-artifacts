@@ -1,0 +1,10 @@
+# Bootstrap .deb пакеты
+
+Сюда `make debs` складывает .deb (по умолчанию apt-transport-https),
+которые Dockerfile ставит через `dpkg -i` ДО первого apt-get update.
+
+Нужно для закрытого контура, где репозиторий доступен только по https,
+а в базовом образе orel нет драйвера /usr/lib/apt/methods/https.
+
+Файлы .deb игнорируются git (см. ../../.gitignore). Этот README —
+плейсхолдер, чтобы COPY-glob в Dockerfile всегда находил папку.

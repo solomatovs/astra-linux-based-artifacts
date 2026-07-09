@@ -1,0 +1,5 @@
+# Source tarballs are NOT stored in git — they live as GitHub Release assets.
+# See artifacts-manifest.tsv and scripts/fetch-artifacts.sh
+*.tar
+*.tar.*
+*.tgz
