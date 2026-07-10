@@ -1,5 +1,8 @@
-# Source tarballs are NOT stored in git — they live as GitHub Release assets.
-# See artifacts-manifest.tsv and scripts/fetch-artifacts.sh
-*.tar
-*.tar.*
-*.tgz
+# Assembled originals of split tarballs are NOT committed — their .part-* pieces are.
+# Rebuild them on the build machine with scripts/assemble-artifacts.sh (after git clone).
+/llvm/artifacts/src/llvm-project-15.0.7.src.tar.xz
+/llvm/artifacts/src/llvm-project-17.0.6.src.tar.xz
+/llvm/artifacts/src/llvm-project-18.1.8.src.tar.xz
+/llvm/artifacts/src/llvm-project-20.1.8.src.tar.xz
+/llvm/artifacts/src/llvm-project-21.1.8.src.tar.xz
+/rust/artifacts/src/rustc-1.90.0-src.tar.gz
