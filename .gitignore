@@ -1,5 +1,27 @@
 # Assembled originals of split tarballs are NOT committed — their .part-* pieces are.
 # Rebuild them on the build machine with scripts/assemble-artifacts.sh (after git clone).
+/clickhouse/artifacts/src/clickhouse-22.12.6.22-stable.tar.gz
+/clickhouse/artifacts/src/clickhouse-23.12.6.19-stable.tar.gz
+/clickhouse/artifacts/src/clickhouse-24.12.6.70-stable.tar.gz
+/clickhouse/artifacts/src/clickhouse-24.8.14.39-lts.tar.gz
+/clickhouse/artifacts/src/clickhouse-25.12.12.1-stable.tar.gz
+/clickhouse/artifacts/src/clickhouse-25.8.28.1-lts.tar.gz
+/clickhouse/artifacts/src/clickhouse-26.7.1.1-new.tar.gz
+/java/artifacts/src/gradle-8.10.2-bin.zip
+/java/artifacts/src/jdk-10.tar.gz
+/java/artifacts/src/jdk-11.tar.gz
+/java/artifacts/src/jdk-12.tar.gz
+/java/artifacts/src/jdk-13.tar.gz
+/java/artifacts/src/jdk-14.tar.gz
+/java/artifacts/src/jdk-15.tar.gz
+/java/artifacts/src/jdk-16.tar.gz
+/java/artifacts/src/jdk-17.tar.gz
+/java/artifacts/src/jdk-18.tar.gz
+/java/artifacts/src/jdk-19.tar.gz
+/java/artifacts/src/jdk-20.tar.gz
+/java/artifacts/src/jdk-21.tar.gz
+/java/artifacts/src/jdk-22.tar.gz
+/java/artifacts/src/jdk-9.tar.gz
 /llvm/artifacts/src/llvm-project-15.0.7.src.tar.xz
 /llvm/artifacts/src/llvm-project-17.0.6.src.tar.xz
 /llvm/artifacts/src/llvm-project-18.1.8.src.tar.xz

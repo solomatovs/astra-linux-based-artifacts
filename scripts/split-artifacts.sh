@@ -12,8 +12,8 @@ cd "$ROOT"
 CHUNK="${CHUNK:-90M}"
 MANIFEST="artifacts-manifest.tsv"
 
-# find whole tarballs (exclude the .part-* pieces themselves)
-mapfile -t TARBALLS < <(find . -type f \( -name '*.tar' -o -name '*.tar.*' -o -name '*.tgz' \) \
+# find whole archives (exclude the .part-* pieces themselves)
+mapfile -t TARBALLS < <(find . -type f \( -name '*.tar' -o -name '*.tar.*' -o -name '*.tgz' -o -name '*.zip' \) \
   ! -name '*.part-*' | sed 's|^\./||' | sort)
 
 printf 'path\tsize\tsha256\tparts\n' > "$MANIFEST"
